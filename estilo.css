@@ -1,0 +1,63 @@
+/* estilo.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imagens/fundo.jpg'); /* Imagem de fundo */
+    background-size: cover; /* Cobrir toda a tela */
+    background-position: center; /* Centralizar a imagem */
+    background-repeat: no-repeat; /* Evitar repetição */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Toda a altura da tela visível */
+}
+
+.container {
+    max-width: 90%;
+    padding: 20px;
+    background-color: rgba(9, 49, 27, 0.8); /* Fundo branco semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 10cm;
+    height: 8cm;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px; /* Cantos arredondados para a imagem */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"], button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+}
